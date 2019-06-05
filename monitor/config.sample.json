@@ -1,0 +1,12 @@
+{
+  "server":{
+    "url": "http://10.0.2.8"
+  },
+  "mail":{
+    "address": "",
+    "password": "",
+    "to": "",
+    "port": 25,
+    "smtp": ""
+  }
+}

@@ -1,0 +1,15 @@
+version: '3'
+services:
+  monitor:
+    build: 
+      context: ./monitor
+    volumes:
+      - /opt/monitor/data:/opt/monitor/data
+
+  monitor_web:
+    build: 
+      context: ./web
+    ports:
+      - 80:80
+    volumes:
+      - /opt/monitor/data:/var/www/data

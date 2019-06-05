@@ -1,0 +1,3 @@
+HOME=/opt/monitor
+
+*/10 * * * * root python3.6 /opt/monitor/monitor.py
